@@ -1,0 +1,84 @@
+.test {
+	background-color: blue;
+}
+
+html, body {
+	height: 100%;
+}
+
+#root {
+	height: 100%;
+}
+.App {
+	height: 100%;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.container {
+  display: flex;
+  margin: 0 400px;
+  height: 100%;
+}
+
+.sidebar {
+  flex-basis: 25%;
+  height: 100%;
+  background-color: #f1f8ff;
+  text-align: center;
+  border-left: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.page-content {
+  flex-basis: 60%;
+  padding: 10px 35px;
+  border: 1px solid #eee;
+}
+
+.sidebar nav ul{
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.sidebar nav ul li{
+	padding: 10px;
+	border-bottom: 1px solid #fff;
+}
+
+.sidebar nav ul li a {
+  text-decoration: none;
+  /*padding: 20px;*/
+}
+
+.sidebar nav ul li a div {
+  /*padding: 20px;*/
+}
+
+/* Video Card */
+.video-card {
+	display: inline-block;
+	margin-right: 20px;
+	height: 200px;
+	width: 200px;
+	border: 1px solid #eee;
+	border-radius: 9px;
+}
+
+.video-card .card-title {
+	padding-top: 6px;
+	text-align: center;
+}
+
+.header {
+	/*height: 30px;*/
+	padding: 20px 50px;
+	/*border: 1px solid #eee;*/
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(86,9,121,1) 18%, rgba(0,212,255,1) 100%);
+	color: #fff;
+}
+
+.header .logo {
+	font-weight: bold;
+}
