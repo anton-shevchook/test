@@ -12,9 +12,9 @@ const VideoCardLayout = (props) => {
 	});
 
 	return (
-		<>
-			{videoCards}
-		</>
+		<div class="video-card-layout">
+			{videoCards} 	
+		</div>
 	);
 };
 
